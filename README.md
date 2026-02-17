@@ -503,10 +503,6 @@ In this lesson, you learned how to:
 SELECT * | {[DISTINCT] column | expression [alias], ...}
 FROM table;
 ```
-
----
-Here is **Chapter 2 converted into Markdown**, slide-by-slide, based on the uploaded file .
-
 ---
 
 # Chapter 2 – Restricting and Sorting Data
@@ -1150,10 +1146,6 @@ This practice includes:
 
 ---
 
-Here is **Chapter 4 converted into Markdown**, slide-by-slide, based on the uploaded file .
-
----
-
 # Chapter 4 – Using Conversion Functions and Conditional Expressions
 
 ---
@@ -1479,11 +1471,6 @@ This practice includes:
 * Using `TO_DATE`
 * Using date functions
 * Writing queries with `CASE` expressions
-
----
-
-
-Here is **Chapter 5 converted into Markdown**, slide-by-slide, based on the uploaded file .
 
 ---
 
@@ -1846,10 +1833,6 @@ This practice includes:
 * Writing queries with group functions
 * Grouping data for multiple results
 * Filtering groups using HAVING
-
----
-
-Here is **Chapter 6 converted into Markdown**, slide-by-slide, based on the uploaded file .
 
 ---
 
@@ -2263,11 +2246,6 @@ This practice includes:
 
 ---
 
-
-Here is **Chapter 7 converted into Markdown**, slide-by-slide, based on the uploaded file .
-
----
-
 # Chapter 7 – Using Subqueries to Solve Queries
 
 ---
@@ -2600,11 +2578,6 @@ This practice includes:
 
 ---
 
-
-Here is **Chapter 8 converted into Markdown**, slide-by-slide, based on the uploaded file .
-
----
-
 # Chapter 8 – Using the Set Operators
 
 ---
@@ -2895,9 +2868,6 @@ In this practice, you:
 * Use `INTERSECT`
 * Use `MINUS`
 * Build compound queries
-
----
-Here is **Chapter 9 converted into Markdown**, slide-by-slide, based on the uploaded file .
 
 ---
 
@@ -3209,9 +3179,6 @@ This practice includes:
 * Using transaction control
 
 ---
-Here is **Chapter 10 converted into Markdown**, based on the uploaded file .
-
----
 
 # Chapter 10 – Creating and Managing Tables
 
@@ -3520,10 +3487,6 @@ In this lesson, you learned how to:
 
 ---
 
-Here is **Chapter 11 converted into Markdown**, based on the uploaded file .
-
----
-
 # Chapter 11 – Creating Other Schema Objects
 
 ---
@@ -3776,9 +3739,6 @@ In this lesson, you learned how to:
 * Create and use sequences
 * Improve performance with indexes
 * Simplify access using synonyms
-
----
-Below is **Pages 313–333 converted into Markdown**, based strictly on the document content .
 
 ---
 
@@ -4061,12 +4021,6 @@ In this appendix, you learned how to:
 * Join multiple tables
 * Perform self-joins
 * Understand outer join behavior
-
----
-
-Here is your **complete structured SQL Handbook (Chapters 1–11 + Appendix C)** compiled into a single clean Markdown document.
-
-You can copy this directly into a `.md` file (e.g., `PostgreSQL_SQL_Fundamentals.md`).
 
 ---
 
