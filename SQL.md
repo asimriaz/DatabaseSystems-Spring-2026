@@ -1,3 +1,4 @@
+
 # Introduction
 
 ## PostgreSQL Database: SQL Fundamentals I
