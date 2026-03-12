@@ -115,23 +115,23 @@ WHERE (instructor.ID, dept_name) = (teaches.ID, 'Biology');
 
 Find courses that ran in Fall 2009 or in Spring 2010
 ```sql
-(SELECT course_id  FROM section WHERE semester = 'Fall' AND year = 2009)           
+(SELECT course_id  FROM section WHERE semester = 'Fall' AND year = 2017)           
 UNION           
-(SELECT course_id  FROM section WHERE semester = 'Spring' AND year = 2010);
+(SELECT course_id  FROM section WHERE semester = 'Spring' AND year = 2018);
 ```          
 
 Find courses that ran in Fall 2009 AND in Spring 2010
 
 ```sql
-(SELECT course_id  FROM section WHERE semester = 'Fall' AND year = 2009)           
+(SELECT course_id  FROM section WHERE semester = 'Fall' AND year = 2017)           
 INTERSECT           
-(SELECT course_id  FROM section WHERE semester = 'Spring' AND year = 2010);
+(SELECT course_id  FROM section WHERE semester = 'Spring' AND year = 2018);
 ```
 Find courses that ran in Fall 2009 but not in Spring 2010
 ```sql
-(SELECT course_id  FROM section WHERE semester = 'Fall' AND year = 2009)           
+(SELECT course_id  FROM section WHERE semester = 'Fall' AND year = 2017)           
 EXCEPT           
-(SELECT course_id  FROM section WHERE semester = 'Spring' AND year = 2010);
+(SELECT course_id  FROM section WHERE semester = 'Spring' AND year = 2018);
 ```
 ## Null Values
 
