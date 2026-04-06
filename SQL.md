@@ -191,6 +191,24 @@ WHERE takes.course_id = course.course_id;
 SELECT name, title
 FROM (student NATURAL JOIN takes) JOIN course USING (course_id);
 ```
+## JOIN Syntax
+```
+SELECT name, course_id
+FROM  student, takes
+WHERE student.ID = takes.ID;
+
+SELECT name, course_id
+FROM student NATURAL JOIN takes;
+
+SELECT name, course_id
+FROM student JOIN takes
+USING (ID);
+
+SELECT name, course_id
+FROM student s JOIN takes t
+ON (s.ID = t.ID);
+
+```
 ## JOIN Condition
 ```sql
 SELECT * 
